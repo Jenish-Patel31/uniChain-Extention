@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UniChain Wallet</title>
+    <link rel="stylesheet" href="../src/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>UniChain Wallet</h2>
+        <div id="auth-section">
+            <input type="email" id="email" placeholder="Enter Email">
+            <input type="password" id="password" placeholder="Enter Password">
+            <button id="register-btn">Register</button>
+            <button id="login-btn">Login</button>
+            <p id="message"></p>
+        </div>
+
+        <div id="wallet-section" class="hidden">
+            <h3>Welcome</h3>
+            <p>Your Wallet:</p>
+            <p id="wallet-address"></p>
+            <button id="logout-btn">Logout</button>
+        </div>
+    </div>
+
+    <script src="../src/popup.js"></script>
+</body>
+
+</html>
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UniChain Wallet</title>
+    <link rel="stylesheet" href="../src/styles.css">
+</head>
+
+<body>
+
+<body>
+    <div class="wallet-container">
+        <h2>Welcome to UniChain</h2>
+        <p id="status-text">Secure & Fast Blockchain Wallet</p>
+
+        <div id="register-container">
+            <input type="password" id="password" placeholder="Enter a password">
+            <button id="create-wallet">Create Wallet</button>
+            <button id="restore-wallet">Restore Wallet</button>
+        </div>
+
+        <div id="wallet-container" class="hidden">
+            <p>Your Address: <span id="wallet-address"></span></p>
+            <p>Balance: <span id="wallet-balance">0 ETH</span></p>
+            <button id="send-transaction">Send Transaction</button>
+        </div>
+    </div>
+
+    <script src="../src/popup.js"></script>
+</body>
+
+</html> -->

@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "UniChain Wallet",
+    "version": "1.0",
+    "description": "A blockchain wallet for Ethereum and Solana.",
+    "icons": {
+        "16": "public/icons/icon16.png",
+        "48": "public/icons/icon48.png",
+        "128": "public/icons/icon128.png"
+    },
+    "permissions": [
+        "storage"
+    ],
+    "background": {
+        "service_worker": "src/background.js"
+    },
+    "action": {
+        "default_popup": "public/popup.html",
+        "default_icon": "public/icons/icon48.png"
+    },
+    "host_permissions": [
+        "https://backend-u2e6.onrender.com/*"
+    ]
+}
